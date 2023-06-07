@@ -10,11 +10,11 @@ export const Statistics = ({
 }) => {
   return (
     <S.StatsList>
-      <li>Good: {good}</li>
-      <li>Neutral: {neutral} </li>
-      <li>Bad: {bad} </li>
-      <li>Total: {total}</li>
-      <li>Positive feedback: {positivePercentage}%</li>
+      <S.StatItem>Good: {good}</S.StatItem>
+      <S.StatItem>Neutral: {neutral} </S.StatItem>
+      <S.StatItem>Bad: {bad} </S.StatItem>
+      <S.StatItem>Total: {total}</S.StatItem>
+      <S.StatItem>Positive feedback: {positivePercentage}%</S.StatItem>
     </S.StatsList>
   );
 };

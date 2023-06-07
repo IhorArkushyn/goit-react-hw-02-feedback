@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
 export const StatsList = styled.ul`
-  /* list-style: none; */
-  /* margin: 0; */
-  /* padding: 0; */
+  display: flex;
+  flex-direction: column;
+  list-style: none;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
+`;
+export const StatItem = styled.li`
+  margin: auto;
+  font-size: 20px;
 `;

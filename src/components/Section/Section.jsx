@@ -4,7 +4,7 @@ import * as S from './Section.styled.jsx';
 
 export const Section = ({ title, children }) => (
   <S.Container>
-    <h2>{title}</h2>
+    <S.SectionTitle>{title}</S.SectionTitle>
     <>{children}</>
   </S.Container>
 );
