@@ -11,4 +11,5 @@ export const StatsList = styled.ul`
 export const StatItem = styled.li`
   margin: auto;
   font-size: 20px;
+  font-weight: 500;
 `;
